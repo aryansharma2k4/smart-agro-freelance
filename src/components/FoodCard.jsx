@@ -2,7 +2,7 @@ import React from 'react'
 
 function FoodCard({name,image}) {
     return (
-        <div className='p-6 bg-[#3F7000] rounded-md'>
+        <div className='sm:p-2 md:p-4 lg:p-6 p-1 bg-[#3F7000] rounded-md'>
             <div>
                 <img src={image} alt={name} />
             </div>

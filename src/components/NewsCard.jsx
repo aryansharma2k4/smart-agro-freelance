@@ -2,7 +2,7 @@ import React from 'react'
 
 function NewsCard({text, comments, author, image, date}) {
     return (
-        <div className='w-[300px] h-[300px] rounded-md'>
+        <div className='w-[300px] lg:h-[300px] md:h-[300px] sm:h-[250px] h-[200px] rounded-md'>
             <div className='relative'>
                 <img className="w-full h-full" src={image} alt="image" />
                 <div className='bg-[#F7C35F] rounded-l-md p-2 absolute right-0 bottom-0'>
